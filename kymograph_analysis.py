@@ -61,7 +61,7 @@ def main():
     # make GUI object and display the window
     gui = BaseGUI()
     gui.mainloop()
-    folder_path = '/Users/domchom/Desktop/136DCE_138DCE_analysis'
+    folder_path = '/Users/domchom/Desktop'
     plot_mean_CCFs = gui.plot_summary_CCFs
     plot_mean_peaks = gui.plot_summary_peaks
     plot_mean_acfs = gui.plot_summary_ACFs
